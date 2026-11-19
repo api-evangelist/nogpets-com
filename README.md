@@ -1,4 +1,4 @@
-# nogpets-com
+# NogPets
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nogpets-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://nogpets.com/
+NogPets is a South African pet care service that lets owners book grooming, walks, and pet sitting via WhatsApp or an AI assistant like ChatGPT or Claude. Operated by Peak Software (Pty) Ltd, it offers a marketplace for pet businesses and integrates with AI assistants through an open API. The platform handles bookings, payments via Payfast, and provides a developer portal with OpenAPI specs.
+
+**Areas:** Grooming · Dog Walks · Pet Sitting · Pet Services · WhatsApp Booking · South Africa
+
+## NogPets on APIs.io
+
+Everything profiled for NogPets is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nogpets-com/](https://apis.io/providers/nogpets-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [NogPets Account API](https://apis.io/apis/nogpets-com/nogpets-com-account-api/) — The person's profile, pets and addresses.
+- [NogPets Booking API](https://apis.io/apis/nogpets-com/nogpets-com-booking-api/) — Open times, booking, moving, cancelling and paying.
+- [NogPets Business API](https://apis.io/apis/nogpets-com/nogpets-com-business-api/) — For pet businesses anywhere in the world: register and manage a grooming, walking or sitting business on NogPets through an assistant, in its own country,…
+- [NogPets Directory API](https://apis.io/apis/nogpets-com/nogpets-com-directory-api/) — Pet businesses in and around Stellenbosch. Public.
+- [NogPets Run API](https://apis.io/apis/nogpets-com/nogpets-com-run-api/) — For approved pet businesses: run the business from an assistant. The day plan, bookings, clients, prices, hours, time off, areas and money, for the…
+- [NogPets Services API](https://apis.io/apis/nogpets-com/nogpets-com-services-api/) — What we do, where, and for how much. Public.
+- [NogPets Shop API](https://apis.io/apis/nogpets-com/nogpets-com-shop-api/) — Pet food, toys, beds and accessories. Only while the shop is open (else `SHOP_OFF`).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [NogPets Agentic Access](https://apis.io/agentic-access/nogpets-com/nogpets-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BizOverview](https://apis.io/schemas/nogpets-com/nogpets-com-biz-overview/)
+- [BizVisitRequest](https://apis.io/schemas/nogpets-com/nogpets-com-biz-visit-request/)
+- [BookRequest](https://apis.io/schemas/nogpets-com/nogpets-com-book-request/)
+- [BusinessApplication](https://apis.io/schemas/nogpets-com/nogpets-com-business-application/)
+- [BusinessDetails](https://apis.io/schemas/nogpets-com/nogpets-com-business-details/)
+- [Times](https://apis.io/schemas/nogpets-com/nogpets-com-times/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nogpets Com Context](https://apis.io/jsonld/nogpets-com/nogpets-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [NogPets API Rules](https://apis.io/rules/nogpets-com/nogpets-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [NogPets Authentication](https://apis.io/security/nogpets-com/nogpets-com-authentication/)
+- [NogPets Domain Security](https://apis.io/security/nogpets-com/nogpets-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [NogPets Scopes](https://apis.io/scopes/nogpets-com/nogpets-com-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nogpets.com/)
+- [Documentation](https://nogpets.com/guides)
+- [API reference](https://nogpets.com/developers/)
+- [Support](https://nogpets.com/support)
+- [Terms of service](https://nogpets.com/terms)
+- [Privacy policy](https://nogpets.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.2** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 17.0 |
+
+**Agent readiness 48.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nogpets-com/](https://apis.io/providers/nogpets-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for NogPets: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nogpets-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
